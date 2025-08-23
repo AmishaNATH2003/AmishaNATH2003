@@ -2,7 +2,7 @@
 
 - 👩‍💻 I’m passionate about **coding** and solving real-world problems with technology.  
 - 🔍 I’m currently diving deep into **blockchain development**.  
-- 🤝 I’m open to collaborating on **open-source projects**, especially in **web3**, **AI**, or **full-stack development**.  
+- 🤝 I’m open to collaborating on **open-source projects**, especially in **web3**, **AI**, **Backend development**, or **full-stack development**.  
 - 📫 Reach me at: **nathamisha2003@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/amisha-nath/)  
 
 <!---
