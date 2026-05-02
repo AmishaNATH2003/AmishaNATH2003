@@ -3,7 +3,7 @@
 - 👩‍💻 I’m passionate about **coding** and solving real-world problems with technology.  
 - 🔍 I’m currently diving deep into **blockchain development** and **Backend Development**.  
 - 🤝 I’m open to collaborating on **open-source projects**, especially in **web3**, **AI**, **Backend development**, or **full-stack development**.  
-- 📫 Reach me at: **nathamisha2003@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/amisha-nath/)  
+- 📫 Reach me at: **nathamisha2003@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/amisha-nath/) or [X](https://x.com/PixieCoder)
 
 <!---
 AmishaNATH2003/AmishaNATH2003 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
