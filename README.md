@@ -15,6 +15,11 @@
 <a href="mailto:nathamisha2003@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://leetcode.com/u/amisha_nath/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
 
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=AmishaNATH2003&color=2f81f7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
 </div>
 
 ---
