@@ -44,6 +44,14 @@ Based in **Gurugram, India** · Prefer **Gurgaon / Delhi NCR** · Open to paid i
 
 ---
 
+## 🎉 Latest Merged Contribution
+
+**[Higher-Kinded-J #1408 — Add Maybe.fromEither conversion](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408)** · Merged **5 November 2026 (IST)**
+
+Added a Java API conversion with tests, Javadoc, and a release-history entry.
+
+---
+
 ## 👋 About Me
 
 I'm **Amisha Nath**, a Computer Science graduate from **SLIET Longowal**. I enjoy solving problems and turning ideas into software, from interactive web interfaces to projects combining AI and blockchain.
