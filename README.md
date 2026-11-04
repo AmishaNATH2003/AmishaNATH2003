@@ -35,44 +35,7 @@ Based in **Gurugram, India** · Prefer **Gurgaon / Delhi NCR** · Open to paid i
 
 **Hiring or looking for an intern?** [Email me](mailto:nathamisha2003@gmail.com?subject=Software%20Opportunity%20-%20Amisha%20Nath) · [Connect on LinkedIn](https://www.linkedin.com/in/amisha-nath/)
 
-[Projects](#-featured-projects) · [Code Review Spotlight](#-code-review-spotlight) · [Experience](#-experience) · [Tech Stack](#%EF%B8%8F-tech-stack)
-
----
-
-## 🔎 Code Review Spotlight
-
-### A small Java API change, explained through its edge cases
-
-In [Higher-Kinded-J #1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408), I proposed `Maybe.fromEither(...)`: a conversion from a result containing either a left or right value into an optional value.
-
-| Input | Expected result | Why it matters |
-|---|---|---|
-| `Right(value)` | `Just(value)` | Preserve the successful value |
-| `Left(error)` | `Nothing` | Intentionally discard the left value |
-| `null` | `NullPointerException` | Match the existing API's null contract |
-| `Maybe → Either → Maybe` | Original value | Check round-trip behavior |
-
-**The design decision:** this conversion loses the left-side information. That behavior needs to be explicit in the documentation so callers can choose it deliberately.
-
-**What I contributed:** conversion logic, tests for the cases above, Javadoc, and a release-history entry.
-
-<details>
-<summary><strong>Open my verification notes</strong></summary>
-
-The PR records successful local runs of the focused test suite and formatting check:
-
-```bat
-gradlew.bat :hkj-core:test --tests "MaybeTest"
-gradlew.bat :hkj-core:spotlessCheck
-```
-
-These are focused checks; they do not establish that the full repository build passed. See the pull request for the latest review and CI status.
-
-</details>
-
-[**Inspect the code changes →**](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408/files) · [**Read the review →**](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408)
-
-**Another contribution:** [#1401 — testing the null-function contract of `NonDetPath.foldLeft`](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401).
+[Projects](#-featured-projects) · [Experience](#-experience) · [Tech Stack](#%EF%B8%8F-tech-stack)
 
 ---
 
