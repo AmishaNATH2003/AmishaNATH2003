@@ -35,7 +35,44 @@ Based in **Gurugram, India** · Prefer **Gurgaon / Delhi NCR** · Open to paid i
 
 **Hiring or looking for an intern?** [Email me](mailto:nathamisha2003@gmail.com?subject=Software%20Opportunity%20-%20Amisha%20Nath) · [Connect on LinkedIn](https://www.linkedin.com/in/amisha-nath/)
 
-[Projects](#-featured-projects) · [Open Source](#-open-source) · [Experience](#-experience) · [Tech Stack](#%EF%B8%8F-tech-stack)
+[Projects](#-featured-projects) · [Code Review Spotlight](#-code-review-spotlight) · [Experience](#-experience) · [Tech Stack](#%EF%B8%8F-tech-stack)
+
+---
+
+## 🔎 Code Review Spotlight
+
+### A small Java API change, explained through its edge cases
+
+In [Higher-Kinded-J #1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408), I proposed `Maybe.fromEither(...)`: a conversion from a result containing either a left or right value into an optional value.
+
+| Input | Expected result | Why it matters |
+|---|---|---|
+| `Right(value)` | `Just(value)` | Preserve the successful value |
+| `Left(error)` | `Nothing` | Intentionally discard the left value |
+| `null` | `NullPointerException` | Match the existing API's null contract |
+| `Maybe → Either → Maybe` | Original value | Check round-trip behavior |
+
+**The design decision:** this conversion loses the left-side information. That behavior needs to be explicit in the documentation so callers can choose it deliberately.
+
+**What I contributed:** conversion logic, tests for the cases above, Javadoc, and a release-history entry.
+
+<details>
+<summary><strong>Open my verification notes</strong></summary>
+
+The PR records successful local runs of the focused test suite and formatting check:
+
+```bat
+gradlew.bat :hkj-core:test --tests "MaybeTest"
+gradlew.bat :hkj-core:spotlessCheck
+```
+
+These are focused checks; they do not establish that the full repository build passed. See the pull request for the latest review and CI status.
+
+</details>
+
+[**Inspect the code changes →**](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408/files) · [**Read the review →**](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408)
+
+**Another contribution:** [#1401 — testing the null-function contract of `NonDetPath.foldLeft`](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401).
 
 ---
 
@@ -49,20 +86,6 @@ My work spans **Java, web development, machine learning, and Web3**. I'm current
 - 🌱 **Currently learning:** Java backend development, Spring Boot, and SQL.
 - 🤝 **Interested in collaborating on:** Java, frontend, AI, and blockchain projects.
 - 📍 **Opportunities:** Full-time software roles and paid internships; Gurgaon/Delhi NCR preferred.
-
----
-
-## 🤝 Open Source
-
-Contributing to [**Higher-Kinded-J**](https://github.com/higher-kinded-j/higher-kinded-j), a Java functional programming library.
-
-| Contribution | Pull request |
-|---|---|
-| Added null-function test coverage for `NonDetPath.foldLeft` | [#1401](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401) |
-| Added `Maybe.fromEither` conversion with tests and documentation | [#1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408) |
-
-These contributions are helping me practice reading an existing codebase, writing focused tests, and responding to code review.
-
 
 ---
 
