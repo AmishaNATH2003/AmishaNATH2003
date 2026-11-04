@@ -19,6 +19,26 @@
 
 ---
 
+## 💼 Open to Software Opportunities
+
+**Entry-level Software Engineer · Java Developer · Frontend Developer · Paid Software Intern**
+
+Based in **Gurugram, India** · Prefer **Gurgaon / Delhi NCR** · Open to paid international remote roles that support working from India.
+
+| Background | Explore my work |
+|---|---|
+| **Java open-source contributions** | [Null-handling test #1401](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401) · [API conversion #1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408) |
+| **Web development** | [Sorting Visualizer](https://github.com/AmishaNATH2003/Sorting-visualizer) — interactive JavaScript project |
+| **AI + blockchain project** | [Precision Agriculture](https://github.com/AmishaNATH2003/Integrating-of-Drone-Technology-on-Blockchain-For-Precision-Agriculture) — computer vision, simulation, and on-chain logging |
+| **Technical training** | Cognizant training in C#, SQL, PL/SQL, AWS, and healthcare workflows |
+| **Problem solving** | [650+ LeetCode problems solved](https://leetcode.com/u/amisha_nath/) |
+
+**Hiring or looking for an intern?** [Email me](mailto:nathamisha2003@gmail.com?subject=Software%20Opportunity%20-%20Amisha%20Nath) · [Connect on LinkedIn](https://www.linkedin.com/in/amisha-nath/)
+
+[Projects](#-featured-projects) · [Open Source](#-open-source) · [Experience](#-experience) · [Tech Stack](#%EF%B8%8F-tech-stack)
+
+---
+
 ## 👋 About Me
 
 I'm **Amisha Nath**, a Computer Science graduate from **SLIET Longowal**. I enjoy solving problems and turning ideas into software, from interactive web interfaces to projects combining AI and blockchain.
@@ -29,6 +49,20 @@ My work spans **Java, web development, machine learning, and Web3**. I'm current
 - 🌱 **Currently learning:** Java backend development, Spring Boot, and SQL.
 - 🤝 **Interested in collaborating on:** Java, frontend, AI, and blockchain projects.
 - 📍 **Opportunities:** Full-time software roles and paid internships; Gurgaon/Delhi NCR preferred.
+
+---
+
+## 🤝 Open Source
+
+Contributing to [**Higher-Kinded-J**](https://github.com/higher-kinded-j/higher-kinded-j), a Java functional programming library.
+
+| Contribution | Pull request |
+|---|---|
+| Added null-function test coverage for `NonDetPath.foldLeft` | [#1401](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401) |
+| Added `Maybe.fromEither` conversion with tests and documentation | [#1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408) |
+
+These contributions are helping me practice reading an existing codebase, writing focused tests, and responding to code review.
+
 
 ---
 
@@ -87,19 +121,6 @@ A Java console application I'm building step by step to practice programming fun
 - Planned improvements include deadlines, priorities, and persistent storage.
 
 [**View repository →**](https://github.com/AmishaNATH2003/NoticeNest_PROJECT)
-
----
-
-## 🤝 Open Source
-
-Contributing to [**Higher-Kinded-J**](https://github.com/higher-kinded-j/higher-kinded-j), a Java functional programming library.
-
-| Contribution | Pull request |
-|---|---|
-| Added null-function test coverage for `NonDetPath.foldLeft` | [#1401](https://github.com/higher-kinded-j/higher-kinded-j/pull/1401) |
-| Added `Maybe.fromEither` conversion with tests and documentation | [#1408](https://github.com/higher-kinded-j/higher-kinded-j/pull/1408) |
-
-These contributions are helping me practice reading an existing codebase, writing focused tests, and responding to code review.
 
 ---
 
