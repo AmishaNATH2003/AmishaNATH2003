@@ -134,8 +134,8 @@ These contributions are helping me practice reading an existing codebase, writin
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AmishaNATH2003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" alt="Amisha's GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmishaNATH2003&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" alt="Most used languages in public repositories"/>
+<img src="https://github-stats-extended.vercel.app/api?username=AmishaNATH2003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" alt="Amisha's GitHub statistics"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AmishaNATH2003&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170" alt="Most used languages in public repositories"/>
 
 </div>
 
